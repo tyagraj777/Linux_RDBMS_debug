@@ -53,7 +53,7 @@ check_connections() {
 # Function to check for data corruption (MySQL example)
 check_data_corruption() {
     echo "Checking for Data Corruption:"
-    mysqlcheck -u root -p --all-databases --check
+    mysqlcheck -u root -p root --all-databases --check
     echo ""
 }
 
